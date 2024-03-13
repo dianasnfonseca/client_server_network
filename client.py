@@ -1,8 +1,9 @@
+
 import socket
 import pickle
 
 class Client:
-    def _init_(self, host='localhost', port=12345):
+    def __init__(self, host='localhost', port=12345):
         self.host = host
         self.port = port
 

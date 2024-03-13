@@ -4,7 +4,7 @@ import json
 import xml.etree.ElementTree as ET
 
 class Server:
-    def _init_(self, host='localhost', port=12345):
+    def __init__(self, host='localhost', port=12345):
         self.host = host
         self.port = port
 
